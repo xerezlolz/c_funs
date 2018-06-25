@@ -1,0 +1,51 @@
+{
+    "window.zoomLevel": 0,  
+    "files.autoGuessEncoding": true,
+    
+    "editor.snippetSuggestions": "top",  
+    "editor.minimap.enabled": true,  
+    "editor.minimap.renderCharacters": false,  
+    "editor.formatOnPaste": true,  
+    "editor.formatOnType": true,  
+    "editor.wordWrap": "on",
+
+    "C_Cpp.clang_format_sortIncludes": true,   
+    "[cpp]": {  
+        "editor.quickSuggestions": true  
+    },  
+    "[c]": {  
+        "editor.quickSuggestions": true  
+    },  
+    "problems.decorations.enabled": true,
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",  
+    "files.associations": {
+        "*.cfg": "ini",
+        "*.fsh": "glsl",
+        "stack": "c",
+        "iostream": "c",
+        "ostream": "c",
+        "*.tcc": "c",
+        "cctype": "c",
+        "clocale": "c",
+        "cmath": "c",
+        "cstdint": "c",
+        "cstdio": "c",
+        "cstdlib": "c",
+        "cwchar": "c",
+        "cwctype": "c",
+        "exception": "c",
+        "initializer_list": "c",
+        "iosfwd": "c",
+        "istream": "c",
+        "limits": "c",
+        "new": "c",
+        "stdexcept": "c",
+        "streambuf": "c",
+        "system_error": "c",
+        "type_traits": "c",
+        "typeinfo": "c",
+        "utility": "c",
+        "stdio.h": "c",
+        "math.h": "c"
+    },
+}
