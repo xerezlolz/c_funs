@@ -1,6 +1,6 @@
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
     // for the documentation about the tasks.json format
+    // it's for linux vscode task.json format
     "version": "2.0.0", 
     "tasks": [  
         {
@@ -9,14 +9,14 @@
             "promptOnClose": false,
             "args": [
                 "-g",
-                "\"${file}\"",
+                "${file}",
                 "-o",
-                "\"${fileDirname}\\${fileBasenameNoExtension}.o\"", // 指定输出文件名，不加该参数则默认输出a.exe
+                "${fileDirname}/${fileBasenameNoExtension}.o", // 指定输出文件名，不加该参数则默认输出a.exe
                 "-Wall",    // 开启额外警告
                 //"-std=c11",  // -std=c++17
                 //"-static-libgcc", // 静态链接
-                "-fexec-charset=GBK",   //Console窗体输出字符编码 保证能正常显示中文  
-                "-finput-charset=UTF-8", //输入编译器文本编码 默认为UTF-8
+                //"-fexec-charset=GBK",   //Console窗体输出字符编码 保证能正常显示中文  
+                //"-finput-charset=UTF-8", //输入编译器文本编码 默认为UTF-8
                 //"--target=x86_64-w64-mingw32" 
             ],
             "type": "shell",  
