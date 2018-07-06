@@ -48,4 +48,6 @@
         "stdio.h": "gcc",
         "math.h": "gcc"
     },
+    "python.pythonPath": "/usr/bin/python3",
+    "python.linting.enabled": true,
 }
